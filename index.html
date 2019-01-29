@@ -176,10 +176,10 @@ input[type^="button"]{height:60px;background:lightsteelblue;opacity:5%;border-st
 <script>
 $(document).ready(function()
 {
-$('input[type="text"]').mouseover(function(){$(this).css('background','khaki')});
-$('input[type="text"]').mouseout(function(){$(this).css('background','white')});
+$('#a1,#a2,#b1,#b2,#c1,#c2,#d1,#d2').mouseover(function(){$(this).css('background','lightblue')});
+$('#a1,#a2,#b1,#b2,#c1,#c2,#d1,#d2').mouseout(function(){$(this).css('background','white')});
 $('input[type="button"]').mouseover(function(){$(this).css('border-color','gray')});
-$('input[type="button"]').mouseout(function(){$(this).css('border-color','khaki')})});
+$('input[type="button"]').mouseout(function(){$(this).css('border-color','lightsteelblue')})});
 function fun1()
 {
 x=parseFloat(document.f1.a1.value);
