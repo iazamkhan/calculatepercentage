@@ -176,10 +176,10 @@ input[type^="button"]{height:60px;background:lightsteelblue;opacity:5%;border-st
 <script>
 $(document).ready(function()
 {
-$('input[type="text"]').mouseover(function(){$(this).css('background','lightsalmon')});
+$('input[type="text"]').mouseover(function(){$(this).css('background','khaki')});
 $('input[type="text"]').mouseout(function(){$(this).css('background','white')});
 $('input[type="button"]').mouseover(function(){$(this).css('border-color','gray')});
-$('input[type="button"]').mouseout(function(){$(this).css('border-color','lightsteelblue')})});
+$('input[type="button"]').mouseout(function(){$(this).css('border-color','khaki')})});
 function fun1()
 {
 x=parseFloat(document.f1.a1.value);
@@ -230,14 +230,14 @@ document.f4.res4.value=y-(x/100*y);
 <form name="f1">
 <div id="section_a">
 <div id="part_a">
-<input type="text" name="a1" id="a1">%&nbsp&nbsp&nbsp&nbsp&nbsp&nbspof&nbsp<input type="text" name="a2" id="a2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspis&nbsp<input type="button" id="but1" value="Calculate" onclick="fun1()">&nbsp&nbsp<input type="text" name="res1">
+<input type="text" name="a1" id="a1">%&nbsp&nbsp&nbsp&nbsp&nbsp&nbspof&nbsp<input type="text" name="a2" id="a2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspis&nbsp<input type="button" id="but1" value="Calculate" onclick="fun1()">&nbsp&nbsp<input type="text" name="res1" readonly="readonly">
 </div>
 </div>
 </form>
 <form name="f2">
 <div id="section_b">
 <div id="part_b">
-How much % is&nbsp&nbsp<input type="text" name="b1" id="b1">&nbsp&nbspof&nbsp<input type="text" name="b2" id="b2">&nbsp&nbsp&nbsp<input type="button" id="but2" value="Calculate" onclick="fun2()">&nbsp&nbsp<input type="text" name="res2">&nbsp%
+How much % is&nbsp&nbsp<input type="text" name="b1" id="b1">&nbsp&nbspof&nbsp<input type="text" name="b2" id="b2">&nbsp&nbsp&nbsp<input type="button" id="but2" value="Calculate" onclick="fun2()">&nbsp&nbsp<input type="text" name="res2" readonly="readonly">&nbsp%
 </div>
 </div>
 </form>
@@ -245,13 +245,13 @@ How much % is&nbsp&nbsp<input type="text" name="b1" id="b1">&nbsp&nbspof&nbsp<in
 <form name="f3">
 <div id="section_c">
 <div id="part_c">
-% change from&nbsp&nbsp<input type="text" name="c1" id="c1">&nbsp&nbsp&nbspto&nbsp<input type="text" name="c2" id="c2">&nbsp&nbsp&nbsp&nbsp<input type="button" id="but3" value="calculate" onclick="fun3()">&nbsp&nbsp<input type="text" name="res3">
+% change from&nbsp&nbsp<input type="text" name="c1" id="c1">&nbsp&nbsp&nbspto&nbsp<input type="text" name="c2" id="c2">&nbsp&nbsp&nbsp&nbsp<input type="button" id="but3" value="calculate" onclick="fun3()">&nbsp&nbsp<input type="text" name="res3" readonly="readonly">
 </div></div></form>
 <div id="t2">Discounted Price Calculator</div>
 <form name="f4">
 <div id="section_d">
 <div id="part_d">
-<input type="text" name="d1" id="d1">&nbsp&nbsp%&nbsp on Marked Price&nbsp<input type="text" name="d2" id="d2">&nbsp&nbsp&nbsp&nbsp<input type="button" id="but4" value="Calculate" onclick="fun4()">&nbsp&nbsp<input type="text" name="res4">
+<input type="text" name="d1" id="d1">&nbsp&nbsp%&nbsp on Marked Price&nbsp<input type="text" name="d2" id="d2">&nbsp&nbsp&nbsp&nbsp<input type="button" id="but4" value="Calculate" onclick="fun4()">&nbsp&nbsp<input type="text" name="res4" readonly="readonly">
 </div></div></form>
 <div id="footer"><a href="terms.html">Terms of Service</a><div id="copy">&nbsp&nbsp&nbsp&copy;2019&nbspCalculatePercentage.net</div></div>
 </body></html>
