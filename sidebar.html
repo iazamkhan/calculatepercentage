@@ -43,12 +43,21 @@ div.content {
 }
 
 #one {
-left : 200px;
+left : inherit;
 height : 100px;
 top : 0px;
 background : aliceblue;
+border: 1px solid deepskyblue;
 }
 
+#img {
+height: 300px;
+width: 70%;
+margin-left: 15%;
+margin-top: -100px;
+}
+
+}
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -78,8 +87,9 @@ background : aliceblue;
 
 <div class="content">
   <div id="one">
+  <img src="cp.png" id="img">
   </div>
-jfhsjdhfs
+
 </div>
 
 </body>
